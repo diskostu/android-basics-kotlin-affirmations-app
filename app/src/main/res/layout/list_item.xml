@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="16dp">
 
     <ImageView
         android:id="@+id/item_image"
@@ -17,7 +18,8 @@
     <TextView
         android:id="@+id/item_title"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-    </TextView>
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        tools:text="This is some demo text" />
 </LinearLayout>
